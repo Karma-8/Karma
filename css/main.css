@@ -1,0 +1,133 @@
+body{
+	color: black;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, sans-serif;
+}
+div{
+	box-sizing: border-box;
+}
+header{
+	background: url(../img/icon.jpg) no-repeat top center / cover ;
+	height: 110vh;
+
+}
+.logo{
+	width: 100px;
+	float: left;
+	margin-top: 40px;
+}
+.container{
+	width: 920px;
+	margin: 0 auto;
+}
+nav{
+	float: right;
+	margin-top:50px; 
+}
+.menu{
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+.menu li {
+	float: left;
+	display: block;
+	margin: 30px;
+	font-size: 15px;
+
+}
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.title1{
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 45px;
+}
+h1{
+	font-size: 60px;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	margin:15px;
+}
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+.button{
+	background: #6D6E6A;
+	color: white;
+	border-radius: 5px;
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	text-decoration: none;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 40px;
+}
+.title{
+	padding-top: 115px;
+}
+.title h2 {
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+
+}
+.title p {
+	color: #777777;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 5px;
+} 
+.personal {
+	margin-top: 50px;
+	
+
+}
+.person {
+	width: 270;
+	float: left;
+	text-align: center;
+	
+}
+.person h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-top: 10px;
+
+}
+.person p {
+	color: #777777;
+	font-size: 14px;
+}
+.person:last-child {
+	float: right;
+}
+.person:nth-child(2) {
+	margin-left: 74px;
+}
+#section1 {
+	padding-bottom: 100px;
+}
+footer {
+	color: #777777;
+}
+.end p {
+	text-align: center;
+}
+
